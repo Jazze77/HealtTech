@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jpe.healthtechproject">
+
+    <!-- For streaming videos from the network. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- For playing videos from local storage / memory card. -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!-- For copying test content to local storage / memory card, saving screenshots. -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- For Polar Bluetooth -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED" />
+
+
+    <!-- android:name="fi.finwe.template.android.AndroidApplication"
+            android:allowBackup="true" -->
+
+    <!-- android:roundIcon="@mipmap/ic_launcher_round" -->
+    <application
+        android:name="com.example.jpe.healthtechproject.BluetoothLE.BluetoothLEHandler"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".VideoPlayerContols"
+                android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"
+                android:screenOrientation="landscape"
+                android:value=".VideoPlayerContols" />
+
+
+        <activity android:name=".VRVideoPlayer"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"
+            android:screenOrientation="landscape"
+            android:value=".VRVideoPlayer" />
+
+        <activity android:name=".ImageFilePlayer"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"
+            android:screenOrientation="landscape"
+            android:value=".ImageFilePlayer" />
+
+        <activity android:name=".VideoControls"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"
+            android:screenOrientation="landscape"
+            android:value=".ImageFilePlayer" />
+
+        <activity android:name=".BluetoothLE.PolarBluetoothLE"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"
+            android:screenOrientation="portrait"
+            android:value=".PolarBluetoothLE" />
+
+
+    </application>
+
+</manifest>

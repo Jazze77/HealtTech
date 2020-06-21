@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- This is the view where 360 image will show up. -->
+    <fi.finwe.orion360.sdk.pro.view.OrionView
+        android:id="@+id/orion_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/PulseTextView"
+        android:layout_marginStart="1dp"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:background="@android:color/holo_red_light"
+        android:text="Pulssi: 1" />
+
+<!--
+    <TextView
+        android:id="@+id/PulseTextView2"
+        android:layout_marginStart="200dp"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:background="@android:color/holo_red_light"
+        android:text="Pulssi 2" />
+-->
+</RelativeLayout>

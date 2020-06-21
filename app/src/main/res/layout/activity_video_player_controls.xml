@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|center"
+    android:orientation="vertical"
+    tools:context="com.example.jpe.healthtechproject.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/full_video_panel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fi.finwe.orion360.sdk.pro.view.OrionView
+            android:id="@+id/orion_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/PulseTextView"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="4dp"
+            android:layout_width="100dp"
+            android:layout_height="32dp"
+            android:text=""
+            android:textSize="20sp"
+            android:background="@android:color/holo_red_light"
+            android:alpha="0.3"
+            />
+        <ImageView
+            android:id="@+id/PulseImage"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="3dp"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:scaleType="fitXY"
+            android:alpha="0.6"
+            android:src="@drawable/sydan_488x353"
+            />
+        <ImageView
+            android:id="@+id/PulseImage2"
+            android:layout_marginStart="115dp"
+            android:layout_marginTop="4.5dp"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:scaleType="fitXY"
+            android:alpha="0.6"
+            android:src="@drawable/sydan_488x353"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/full_video_summary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/SummaryText"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Test test"
+            android:textSize="20sp"
+            android:background="@android:color/holo_blue_dark"
+            android:alpha="1"
+            />
+
+    </RelativeLayout>
+</LinearLayout>
+

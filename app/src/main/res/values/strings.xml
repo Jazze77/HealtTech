@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">HealthTechProject</string>
+
+    <!-- Main menu -->
+    <string name="button_a_text">360 Video</string>
+    <string name="button_b_text">360 VRVideo</string>
+    <string name="button_c_text">360 Image</string>
+
+    <string name="double_back_exit_notification">Please click BACK again to exit</string>
+
+
+
+    <!--- Image player -->
+    <string name="player_media_not_mounted">Cannot play content (media not mounted)</string>
+
+    <!-- Video player -->
+    <string name="player_read_permission_denied">Cannot play content (read permission not granted)</string>
+    <string name="player_long_tap_hint_enter_vr_mode">"Long tap to enter VR mode"</string>
+    <string name="player_long_tap_hint_exit_vr_mode">"Long tap to exit VR mode"</string>
+    <string name="image_a_title">Formula</string>
+    <string name="image_b_title">Carousel</string>
+    <string name="image_c_title">Balloon</string>
+    <string name="video_a_full_name">formula_fullhd.mp4</string>
+    <string name="video_b_full_name">Carousel.mp4</string>
+    <string name="video_c_full_name">balloon_4k.mp4</string>
+
+    <string name="image_a_thumbnail">file:///android_asset/formula_960x488.jpg</string>
+    <string name="image_b_thumbnail">file:///android_asset/carousel_3840x2160.jpg</string>
+    <string name="image_c_thumbnail">file:///android_asset/balloon_3840x1920.jpg</string>
+
+
+    <!-- Video controls -->
+    <string name="player_title_panel_logo_button_desc">Logo</string>
+    <string name="player_title_panel_title_text">Orion360 SDK Pro</string>
+    <string name="player_title_panel_close_button_desc">Close</string>
+    <string name="player_controls_play_button_desc">Play/pause</string>
+    <string name="player_controls_audio_button_desc">Toggle mute on/off</string>
+    <string name="player_controls_player_position">-:--</string>
+    <string name="player_controls_duration">-:--</string>
+    <string name="player_controls_remaining">-:--</string>
+    <string name="player_controls_vr_button_desc">Toggle VR on/off</string>
+    <string name="player_hud_progressbar_image_desc">Progress</string>
+
+
+
+
+</resources>
